@@ -1,3 +1,4 @@
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -12,12 +13,14 @@ body {
     width: 400px;
 }
 
+/* Form */
 form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
+/* Card Layout */
 .card {
     position: relative;
     display: grid;
@@ -27,6 +30,7 @@ form {
     perspective: 1000px;
 }
 
+/* Card Front and Back */
 .card-front, .card-back {
     position: absolute;
     width: 100%;
@@ -46,6 +50,7 @@ form {
     transform: rotateY(180deg);
 }
 
+/* Form Inputs */
 label {
     display: block;
     font-size: 14px;
@@ -60,6 +65,7 @@ input {
     border-radius: 5px;
 }
 
+/* Submit Button */
 button {
     padding: 10px;
     border: none;
