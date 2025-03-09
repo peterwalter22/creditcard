@@ -1,0 +1,89 @@
+/* Global styles */
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+:root {
+    --primary - color: #1B98E0;
+    --secondary - color: #59c3c3;
+    --text - dark: #333;
+    --text - light: #ebebeb;
+    --primary - font: Arial, Helvetica, sans - serif;
+    --secondary - font: "Amatic SC";
+}
+
+body {
+    font - family: var(--primary - font);
+    margin: 0;
+    padding: 0;
+    background - color: var(--text - light);
+    color: var(--text - dark);
+}
+
+header {
+    display: flex;
+    align - items: center;
+    padding: 10px;
+    background - color: var(--primary - color);
+    color: white;
+}
+
+header img {
+    height: 50px;
+    margin - right: 10px;
+}
+
+h1 {
+    font - family: var(--secondary - font);
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    justify - content: center;
+    margin - bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid var(--primary - color);
+    border - radius: 5px;
+    width: 70 %;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background - color: var(--secondary - color);
+    color: white;
+    cursor: pointer;
+    border - radius: 5px;
+}
+
+.recipe {
+    text - align: center;
+    padding: 10px;
+}
+
+.recipe img {
+    max - width: 100 %;
+    border - radius: 10px;
+}
+
+.rating {
+    font - size: 1.5em;
+}
+
+footer {
+    text - align: center;
+    padding: 10px;
+    background - color: var(--primary - color);
+    color: white;
+    font - size: 0.6em;
+}
+
+.social img {
+    width: 30px;
+    margin: 5px;
+}
